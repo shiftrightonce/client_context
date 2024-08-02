@@ -1,0 +1,8 @@
+[workspace]
+members = ["members/*"]
+
+[workspace.dependencies]
+tokio = { version = "*", features = ["full"] }
+axum = { version = "0.7.5" }
+futures = { version = "0.3" }
+async-trait = { version = "0.1.68" }

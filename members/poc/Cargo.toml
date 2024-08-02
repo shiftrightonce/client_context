@@ -1,0 +1,9 @@
+[package]
+name = "poc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+axum = { workspace = true }
+client_context = { path = "../client_context" }
